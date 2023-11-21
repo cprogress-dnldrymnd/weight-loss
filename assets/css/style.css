@@ -273,6 +273,8 @@ section.form .inner {
       max-width: 100%; }
   section.form .inner .button-group-box {
     padding: 20px; }
+section.form #fsform-container * {
+  font-family: var(--primary-font); }
 section.form #fsform-container [class*="StyledSectionHeader"] {
   display: none !important; }
 section.form #fsform-container [class*="StyledErrorBanner"] {

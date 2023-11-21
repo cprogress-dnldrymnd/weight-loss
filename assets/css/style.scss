@@ -376,6 +376,9 @@ section.form {
         }
     }
     #fsform-container {
+        * {
+            font-family: var(--primary-font);
+        }
         [class*="StyledSectionHeader"] {
             display: none !important;
         }
