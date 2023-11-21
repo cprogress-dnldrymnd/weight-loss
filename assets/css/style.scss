@@ -510,9 +510,11 @@ body {
                 &.fsSubmitButton {
                     display: none !important;
                 }
-                &:after {
-                    content: 'Review your answers';
-                    font-size: 16px;
+                &.fsPreviousButton {
+                    &:after {
+                        content: "Review your answers";
+                        font-size: 16px;
+                    }
                 }
             }
         }

@@ -371,8 +371,8 @@ body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigat
   font-size: 0; }
   body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsSubmitButton {
     display: none !important; }
-  body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button:after {
-    content: 'Review your answers';
+  body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsPreviousButton:after {
+    content: "Review your answers";
     font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
