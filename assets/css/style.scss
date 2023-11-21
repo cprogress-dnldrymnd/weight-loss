@@ -395,7 +395,7 @@ section.form {
         .fsLabel {
             font-weight: 600;
         }
-        .fsSubmit {
+        [class*="StyledFormNavigations"]  {
             padding: 0;
             margin: 0;
             display: flex;
