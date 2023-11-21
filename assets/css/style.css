@@ -285,12 +285,12 @@ section.form #fsform-container .fsOptionLabel {
   color: var(--primary-color); }
 section.form #fsform-container .fsLabel {
   font-weight: 600; }
-section.form #fsform-container [class*="StyledFormNavigations"] {
+section.form #fsform-container .fsSubmit {
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: space-between; }
-  section.form #fsform-container [class*="StyledFormNavigations"] button {
+  section.form #fsform-container .fsSubmit button {
     width: 45%;
     padding: 10px 1rem;
     border-radius: 12px;
@@ -305,7 +305,11 @@ section.form #fsform-container [class*="StyledFormNavigations"] {
     line-height: 1.5;
     font-size: 16px;
     color: inherit; }
-    section.form #fsform-container [class*="StyledFormNavigations"] button:hover {
+    section.form #fsform-container .fsSubmit button:before {
+      content: none; }
+    section.form #fsform-container .fsSubmit button span {
+      display: inline-block !important; }
+    section.form #fsform-container .fsSubmit button:hover {
       background-color: var(--primary-color);
       color: var(--white-color);
       border-color: var(--white-color); }
