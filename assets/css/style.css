@@ -341,7 +341,7 @@ section.form #fsform-container select {
   border-radius: 12px;
   outline: none;
   font-size: 16px;
-  min-width: 52px; }
+  min-height: 52px; }
 section.form #fsform-container fieldset label {
   background-color: var(--white-color);
   width: 100%;
