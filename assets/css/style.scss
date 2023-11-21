@@ -506,18 +506,10 @@ body {
         section.form #fsform-container [class*="StyledFormNavigations"] {
             button {
                 width: 100%;
-                font-size: 0;
-                transition: none !important;
-
                 &.fsSubmitButton {
                     display: none !important;
                 }
-                &.fsPreviousButton {
-                    &:after {
-                        content: "Review your answers";
-                        font-size: 16px;
-                    }
-                }
+               
             }
         }
     }

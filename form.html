@@ -71,8 +71,10 @@
         setTimeout(function () {
             if (jQuery('.not-suitable').is(":visible")) {
                 jQuery('body').addClass('user-not-suitable');
+                jQuery('.fsPreviousButton').text('Review your answers');
             } else {
                 jQuery('body').removeClass('user-not-suitable');
+                jQuery('.fsPreviousButton').text('Previous');
             }
         }, 300);
 
