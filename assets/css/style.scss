@@ -506,11 +506,12 @@ body {
     &.user-not-suitable {
         section.form #fsform-container [class*="StyledFormNavigations"] {
             button {
-                width: 100%;
+                &.fsPreviousButton {
+                    width: 100%;
+                }
                 &.fsSubmitButton {
                     display: none !important;
                 }
-               
             }
         }
     }

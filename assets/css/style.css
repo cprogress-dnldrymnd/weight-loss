@@ -367,9 +367,9 @@ section.form #fsform-container .fsValidationError {
   width: 100px;
   height: 100px; }
 
-body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button {
+body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsPreviousButton {
   width: 100%; }
-  body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsSubmitButton {
-    display: none !important; }
+body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsSubmitButton {
+  display: none !important; }
 
 /*# sourceMappingURL=style.css.map */
