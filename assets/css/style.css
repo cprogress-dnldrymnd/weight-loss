@@ -293,6 +293,7 @@ section.form #fsform-container [class*="StyledFormNavigations"] {
   flex-wrap: nowrap; }
   section.form #fsform-container [class*="StyledFormNavigations"] button {
     width: 45%;
+    flex: 0 0 auto;
     padding: 10px 1rem;
     border-radius: 12px;
     font-weight: bold;
@@ -305,7 +306,8 @@ section.form #fsform-container [class*="StyledFormNavigations"] {
     border: 2px solid;
     line-height: 1.5;
     font-size: 16px;
-    color: inherit; }
+    color: inherit;
+    margin: 0; }
     section.form #fsform-container [class*="StyledFormNavigations"] button:before {
       content: none; }
     section.form #fsform-container [class*="StyledFormNavigations"] button span {
