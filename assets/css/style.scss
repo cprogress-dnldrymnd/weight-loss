@@ -131,6 +131,7 @@ img {
         display: inline-block;
         border: 2px solid var(--accent-color);
         text-align: center;
+        transition: 500ms;
         &:hover {
             background-color: var(--primary-color);
             color: var(--white-color);
@@ -506,6 +507,8 @@ body {
             button {
                 width: 100%;
                 font-size: 0;
+                transition: none !important;
+
                 &.fsSubmitButton {
                     display: none !important;
                 }
