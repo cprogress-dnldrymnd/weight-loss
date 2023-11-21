@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VOY</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="background-light">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container text-center justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <div class="container">
+                <div class="inner  content-margin">
+                    <div class="form-progress-bar">
+
+                    </div>
+                    <div class="form-box">
+                        <script type="text/javascript"
+                            src="https://digitallydisruptive.formstack.com/forms/js.php/voy"></script><noscript><a
+                                href="https://digitallydisruptive.formstack.com/forms/voy" title="Online Form">Online
+                                Form - VOY</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script>
+    jQuery(document).ready(function () {
+        jQuery('div[class*="StyledProgressIndicatorWrapper"]').appendTo('.form-progress-bar');
+    });
+
+
+    jQuery(document).on("click", 'fieldset[role="radiogroup"] > div > label', function (event) {
+        jQuery('.fsNextButton').click();
+    });
+
+
+
+</script>
+
+</html>
