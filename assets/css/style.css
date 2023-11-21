@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600;700&display=swap");
 :root {
-  --primary-font: "Poppins", sans-serif;
+  --primary-font: "Petrona", sans-serif;
   --primary-color: #290852;
   --accent-color: #ff781f;
   --white-color: #fff;
