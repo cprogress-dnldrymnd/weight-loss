@@ -395,7 +395,7 @@ section.form {
         .fsLabel {
             font-weight: 600;
         }
-        [class*="StyledFormNavigations"]  {
+        [class*="StyledFormNavigations"] {
             padding: 0;
             margin: 0;
             display: flex;
@@ -498,5 +498,23 @@ section.form {
     svg {
         width: 100px;
         height: 100px;
+    }
+}
+
+body {
+    &.user-not-suitable {
+        section.form #fsform-container [class*="StyledFormNavigations"] {
+            button {
+                width: 100%;
+                font-size: 0;
+                &.fsSubmitButton {
+                    display: none !important;
+                }
+                &:after {
+                    content: 'Review your answers';
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }

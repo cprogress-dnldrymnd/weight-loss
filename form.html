@@ -70,9 +70,9 @@
 
         setTimeout(function () {
             if (jQuery('.not-suitable').is(":visible")) {
-                jQuery('.fsSubmitButton').hide();
+                jQuery('body').addClass('user-not-suitable');
             } else {
-                jQuery('.fsSubmitButton').show();
+                jQuery('body').addClass('user-not-suitable');
             }
         }, 300);
 

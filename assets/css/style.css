@@ -366,4 +366,13 @@ section.form #fsform-container .fsValidationError {
   width: 100px;
   height: 100px; }
 
+body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button {
+  width: 100%;
+  font-size: 0; }
+  body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button.fsSubmitButton {
+    display: none !important; }
+  body.user-not-suitable section.form #fsform-container [class*="StyledFormNavigations"] button:after {
+    content: 'Review your answers';
+    font-size: 16px; }
+
 /*# sourceMappingURL=style.css.map */
