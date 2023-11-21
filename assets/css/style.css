@@ -117,7 +117,7 @@ img {
   .button-box a:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
-    border-color: var(--white-color); }
+    border-color: var(--primary-color); }
 .button-box.button-bordered a {
   background-color: transparent;
   border: 2px solid; }
