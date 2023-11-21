@@ -332,7 +332,8 @@ section.form #fsform-container select {
   padding: 12px;
   border: 1px solid var(--color-7);
   border-radius: 12px;
-  outline: none; }
+  outline: none;
+  font-size: 16px; }
 section.form #fsform-container fieldset label {
   background-color: var(--white-color);
   width: 100%;
@@ -342,7 +343,8 @@ section.form #fsform-container fieldset label {
   padding: 12px;
   border: 1px solid var(--color-7);
   margin-bottom: 10px;
-  border-radius: 12px; }
+  border-radius: 12px;
+  font-size: 16px; }
   section.form #fsform-container fieldset label input {
     width: 20px;
     height: 20px;
