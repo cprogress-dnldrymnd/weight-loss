@@ -402,7 +402,7 @@ section.form {
             justify-content: space-between;
             flex-wrap: nowrap;
             button {
-                width: 45%;
+                width: 48%;
                 flex: 0 0 auto;
                 padding: 10px 1rem;
                 border-radius: 12px;
@@ -427,7 +427,7 @@ section.form {
                 &:hover {
                     background-color: var(--primary-color);
                     color: var(--white-color);
-                    border-color: var(--white-color);
+                    border-color: var(--primary-color);
                 }
             }
         }
