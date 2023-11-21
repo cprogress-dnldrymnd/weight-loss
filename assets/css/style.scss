@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600;700&display=swap");
 :root {
     --primary-font: "Petrona", sans-serif;
     --primary-color: #290852;
@@ -284,10 +284,10 @@ section.testimonial-highlight {
     .quote {
         font-size: 32px;
         font-weight: bold;
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
             font-size: 25px;
         }
-        @media(max-width: 575px) {
+        @media (max-width: 575px) {
             font-size: 20px;
         }
     }
@@ -305,6 +305,16 @@ section.cta-bg {
     padding: 160px 0;
     border-top-left-radius: 56px;
     border-top-right-radius: 56px;
+    @media (max-width: 991px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 footer {
