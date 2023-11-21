@@ -66,11 +66,16 @@
     });
 
 
-    jQuery(document).on("click", '.fsNextButton', function (event) {
-        if(jQuery('.not-suitable').is(":visible")) {
-            console.log('hide submit');
-        }
- 
+    jQuery(document).on("click", '.fsNextButton, fieldset[role="radiogroup"] > div > label', function (event) {
+
+        setTimeout(function () {
+            if (jQuery('.not-suitable').is(":visible")) {
+                jQuery('.fsSubmitButton').hide();
+            } else {
+                jQuery('.fsSubmitButton').show();
+            }
+        }, 300);
+
     });
 
 
