@@ -61,9 +61,16 @@
         jQuery('div[class*="StyledProgressIndicatorWrapper"]').appendTo('.form-progress-bar');
     });
 
-
     jQuery(document).on("click", 'fieldset[role="radiogroup"] > div > label', function (event) {
         jQuery('.fsNextButton').click();
+    });
+
+
+    jQuery(document).on("click", '.fsNextButton', function (event) {
+        if(jQuery('.not-suitable').is(":visible")) {
+            console.log('hide submit');
+        }
+ 
     });
 
 
